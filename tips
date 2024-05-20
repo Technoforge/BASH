@@ -1,0 +1,28 @@
+View end of file: cat `ls -t | head -n1`
+Aliases are in /etc/bash.bashrc
+PS1 prompt is in /etc/bash.bashrc
+Return to home directory with 'cd' or 'cd ~'
+Return to root directory with 'cd /'
+Return to previous directory with 'cd -'
+Change down one directory with 'cd ..'
+Open new terminal: CTRL+ALT+T
+Show current directory: 'pwd'
+Show files in directory: 'ls'
+Move file: 'mv source/file destination/file'
+Rename file: 'mv filename1 filename2'
+Delete file: 'rm filename'
+Create directory: 'mkdir directoryname'
+Delete directory: 'rmdir directoryname'
+Report disk use in a directory: 'du -sh'
+Report free memory: 'free -m'
+Report processes running: 'top'
+Report system disk use: 'df -h'
+Report which Linux kernel you're using: 'uname -a'
+Report your IP and MAC addresses: 'ip addr'
+Show list of previous commands: 'history'
+Show history output screen by screen: eg 'history | less'
+Show folder structure with owners and folder sizes: 'tree -dfuh --du --prune -L 2', where 2 means two levels deep.
+SSH via loopback: 'SSH user@host -L 1234:ip.ip.ip.ip:9876 -p 443'. 1234 can be any spare local port. ip is the target machine's IP address. 9876 should be the target machine's SSH listening port.
+View system information: 'glances'.
+Update pacman package manager: 'pacman -Syu'.
+Check open ports on local machine: 'sudo lsof -i -P -n | grep LISTEN'
